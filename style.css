@@ -156,7 +156,6 @@ https://en.bem.info/methodology/quick-start/*/
    
 }
 
-
 .skills h3{
     font-size: 45px;
     color: #464646;
@@ -228,15 +227,78 @@ https://en.bem.info/methodology/quick-start/*/
 
 /* Experiencia Académica*/
 
-section.academic{
 
+.academic{
+    background-color: #d3e4fb;
+    display: flex;
+    flex-direction: column;
+
+}
+.academic h2{
+    font-size: 35px;
+    color: #464646;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.academic__courses{
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+   
+}
+.academic__courses__box{
+    margin-top: 15px;
+    padding: 15px;
+    margin-bottom: 60px;
+   
+
+}
+.academic__courses__list{
+    display: flex;
+    flex-direction: column;
+ 
+    
+
+}
+.academic__courses__item__img{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+.academic__courses__item__img img{
+    margin: 0 auto;
+
+}
+.academic__courses__item__title{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.academic__courses__item__subtitle{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #464646;
 }
 
 /* experiencia*/
 
-section.experience{
-
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+.experience__section__title{
+    font-size: 35px;
+    color: #464646;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+
+
 
 /*Contacto*/
 
