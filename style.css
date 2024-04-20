@@ -74,20 +74,130 @@ https://en.bem.info/methodology/quick-start/*/
     align-items: center;
 }
 /*Sección Title*/
-
+/* se puede borrar
 .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}*/
+.title__div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+}
+.title__container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.title__container h2{
+    font-size: 50px;
+    color: #464646;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+}
+.title__container h3{
+    font-size: 22px;
+    color: #464646;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.title__network{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
 
 }
 
 /*Sección About*/
+.about{
+    background-color: #d3e4fb;
+    margin-top: 20px;
+}
 
-section.about{
+.about__container{
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin: 0 auto; 
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+}
+.about__container h3{
+    
+    font-size: 45px;
+    color: #464646;
+    
+}
+.about__container p{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: 400px;
+    
+}
+.about__container img{
+    width: fit-content;
 }
 
 /*Sección Hobbies*/
-.hobbies{
+.skills{
+    margin-top: 20px;
+   
+}
+.skills h3{
+    font-size: 45px;
+    color: #464646;
+}
+.skills__line{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 92%;
+    /*margin: 0 auto;*/ 
+}
+.skills__box{
+    background-color: white;
+    margin-right: 25px;
+    width: 280px;
+    height: 260px;
+
+}
+.hobbies__line{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 92%;
+
+}
+.hobbies__box{
+    background-color: white;
+    margin-right: 25px;
+    width: 280px;
+    height: 260px;
     
+
+
+}
+.hobbies__img{
+    
+
+}
+
+.hobbies h3{
+        font-size: 45px;
+        color: #464646;
+        
 }
 
 /* Experiencia Académica*/
@@ -135,30 +245,12 @@ Utiliza las referencias de los breakpoints @media abajo */
     font-size: 16px;
     gap: 10px;
 }
+
 .menu__list__item__contato{
     display: none;
 }
 
-/* Menú */
 
-/*title*/
-.title{
-    display: flex;
-    flex-direction: column;
-
-}
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
-}
-
-/*Mobile*/
 @media (min-width: 425px) {
 
 /*Menu*/
@@ -179,4 +271,3 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 /*Footer*/
 
-}
