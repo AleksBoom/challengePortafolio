@@ -120,12 +120,12 @@ https://en.bem.info/methodology/quick-start/*/
 }
 
 /*Sección About*/
-.about{
+.about{ /*Section*/
     background-color: #d3e4fb;
     margin-top: 20px;
 }
 
-.about__container{
+.about__container{/*Div*/
     display: flex;
     flex-direction: column;
     width: 92%;
@@ -150,11 +150,13 @@ https://en.bem.info/methodology/quick-start/*/
     width: fit-content;
 }
 
-/*Sección Hobbies*/
-.skills{
+/*Sección skills / Hobbies*/
+.skills{ /*Section*/
     margin-top: 20px;
    
 }
+
+
 .skills h3{
     font-size: 45px;
     color: #464646;
@@ -164,15 +166,30 @@ https://en.bem.info/methodology/quick-start/*/
     margin-top: 20px;
     margin-bottom: 50px;
     width: 92%;
-    /*margin: 0 auto;*/ 
+    
 }
 .skills__box{
+    display: flex;
+    align-items: last baseline;
     background-color: white;
     margin-right: 25px;
     width: 280px;
     height: 260px;
 
 }
+.skills__img{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+
+.skills__name{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
 .hobbies__line{
     display: flex;
     margin-top: 20px;
@@ -180,7 +197,14 @@ https://en.bem.info/methodology/quick-start/*/
     width: 92%;
 
 }
+.hobbies h3{
+    font-size: 45px;
+    color: #464646;
+    
+}
 .hobbies__box{
+    display: flex;
+    align-items: last baseline;
     background-color: white;
     margin-right: 25px;
     width: 280px;
@@ -190,15 +214,17 @@ https://en.bem.info/methodology/quick-start/*/
 
 }
 .hobbies__img{
-    
+    margin-bottom: 20px;
+    margin-left: 20px;
 
 }
-
-.hobbies h3{
-        font-size: 45px;
-        color: #464646;
-        
+.hobbies__name{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 20px;
 }
+
+
 
 /* Experiencia Académica*/
 
