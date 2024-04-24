@@ -73,14 +73,7 @@ https://en.bem.info/methodology/quick-start/*/
     flex-direction: column;
     align-items: center;
 }
-/*Sección Title*/
-/* se puede borrar
-.title{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-}*/
 .title__div{
     display: flex;
     align-items: center;
