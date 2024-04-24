@@ -292,6 +292,40 @@ https://en.bem.info/methodology/quick-start/*/
 .experiencie__box{
     display: flex;
 }
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    align-self: center;    
+    
+
+}
+.experience__info h2{
+    font-size: 22px;
+    color: #464646;
+    margin-bottom: 12px;
+}
+.experience__info h3{
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.experiencia__botao--repo{
+    height: 60px;
+    width: 120px;
+    background-color: blue;
+    color: #F5F5F5;
+    border: 0px;
+    color: white;
+}
+.experience__botao--demo{
+    height: 60px;
+    width: 120px;
+    background-color: blue;
+    color: #F5F5F5;
+    border: 0px;
+    color: white;
+}
 
 
 
