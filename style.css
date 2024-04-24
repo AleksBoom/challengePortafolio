@@ -318,10 +318,13 @@ https://en.bem.info/methodology/quick-start/*/
     height: 60px;
     width: 120px;
     background-color: #2A7AE4;
-    color: #F5F5F5;
     border: 0px;
     color: white;
     font-size: 16px;
+}
+.experiencia__botao--repo:hover{
+    background-color: white;
+    color: #2A7AE4;
 }
 .experience__botao--demo{
     height: 60px;
@@ -329,18 +332,16 @@ https://en.bem.info/methodology/quick-start/*/
     background-color: #2A7AE4;
     color: #F5F5F5;
     border: 0px;
-    color: white;
     font-size: 16px;
 }
-
-
-
-
+.experience__botao--demo:hover{
+    background-color: white;
+    color: #2A7AE4;
+}
 
 /*Contacto*/
 
 .formcontato{
-    
     width: 100%;
     background-color: #d3e4fb;
     margin-top: 26px;
@@ -348,7 +349,8 @@ https://en.bem.info/methodology/quick-start/*/
 }
 .formcontato__contacto{
     display: flex;
-    margin-top: 40px;
+    justify-content: center;
+    padding: 48px;
 }
 
 .formcontato__text{
@@ -373,16 +375,53 @@ https://en.bem.info/methodology/quick-start/*/
     height: 32px;
     margin-top: 15px;  
     margin-bottom: 15px; 
+    border: none;
+
+}
+.formcontato__form input:focus{
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+
+}
+.formcontato__textarea{
+    display: block;
+    width: 100%;
+    border: none;
+}
+.formcontato__textarea:focus{
+    outline: none;
+    border-bottom: 2px solid #2A7AE4;
+}
+
+.formcontato__botao{
+    height: 55px;
+    background-color: #2A7AE4;
+    border: 0px;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 15px;
+}
+.formcontato__botao:hover{
+    background-color: white;
+    color: #2A7AE4;
 
 }
 
 
 /*footeer*/
 
-section.footer{
-   
+.footer{
+    display: flex;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    color: #464646;
 }
+.footer__rodape p{
+    margin-bottom: 4px;
 
+}
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
