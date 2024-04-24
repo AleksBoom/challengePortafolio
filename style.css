@@ -281,6 +281,7 @@ https://en.bem.info/methodology/quick-start/*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .experience__section__title{
     font-size: 35px;
@@ -291,12 +292,15 @@ https://en.bem.info/methodology/quick-start/*/
 }
 .experiencie__box{
     display: flex;
+    margin-top: 15px;
+  
 }
 .experience__info{
     display: flex;
     flex-direction: column;
     margin-left: 15px;
-    align-self: center;    
+    align-self: center; 
+    width: 30%;   
     
 
 }
@@ -313,28 +317,65 @@ https://en.bem.info/methodology/quick-start/*/
 .experiencia__botao--repo{
     height: 60px;
     width: 120px;
-    background-color: blue;
+    background-color: #2A7AE4;
     color: #F5F5F5;
     border: 0px;
     color: white;
+    font-size: 16px;
 }
 .experience__botao--demo{
     height: 60px;
     width: 120px;
-    background-color: blue;
+    background-color: #2A7AE4;
     color: #F5F5F5;
     border: 0px;
     color: white;
+    font-size: 16px;
 }
+
 
 
 
 
 /*Contacto*/
 
-section.formcontato{
+.formcontato{
+    
+    width: 100%;
+    background-color: #d3e4fb;
+    margin-top: 26px;
+    
+}
+.formcontato__contacto{
+    display: flex;
+    margin-top: 40px;
+}
+
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;     
+}
+.formcontato__title{
+    font-size: 32px;
+    color: #464646;
+    margin-bottom: 12px;
+}
+.formcontato__subtext{
+    color: #464646;
+    font-size: 18px;
+    margin-bottom: 6px;
 
 }
+.formcontato__form input{
+    display: block; 
+    width: 100%;
+    height: 32px;
+    margin-top: 15px;  
+    margin-bottom: 15px; 
+
+}
+
 
 /*footeer*/
 
