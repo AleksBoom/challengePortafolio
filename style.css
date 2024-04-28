@@ -59,7 +59,7 @@ https://en.bem.info/methodology/quick-start/*/
 .menu__list{
     display: none;
 }
-,.menu__list li a{
+.menu__list li a{
     color: #464646;
 }
 
@@ -142,6 +142,10 @@ https://en.bem.info/methodology/quick-start/*/
 .about__container img{
     width: fit-content;
 }
+.about__paragraph{
+    padding: 5px;
+    line-height: normal;
+}
 
 /*Sección skills / Hobbies*/
 .skills{ /*Section*/
@@ -185,8 +189,7 @@ https://en.bem.info/methodology/quick-start/*/
     display: flex;
     margin-top: 20px;
     margin-bottom: 50px;
-    width: 92%;
-
+ 
 }
 .hobbies h3{
     font-size: 45px;
