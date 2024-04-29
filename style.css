@@ -414,7 +414,6 @@ https://en.bem.info/methodology/quick-start/*/
     display: none;
 }
 
-
 /*footeer*/
 
 .footer{
@@ -449,11 +448,13 @@ Utiliza las referencias de los breakpoints @media abajo */
     font-size: 16px;
     gap: 10px;
 }
-
-.menu__list__item__contato{
-    display: none;
-
+nav{
+    display: flex;
 }
+.menu__list__item__contato{
+    margin-left: 5px;
+}
+
 .title__container{
     width: 75%;
 }
@@ -469,8 +470,6 @@ Utiliza las referencias de los breakpoints @media abajo */
     gap: 50px;
     margin-left: 20px;
     margin-top: 20px;
-
-
 }
 .about__container p{
     font-size: 22px;
@@ -560,7 +559,101 @@ Utiliza las referencias de los breakpoints @media abajo */
 .formcontato__img{
     display:flex;
 }
-@media (min-width: 425px) {
+}
+
+@media (max-width: 425px) {
+
+.menu__list__item__contato{
+    font-size: 14px;
+}
+.title__div{
+    display: block;
+}
+.title__profile{
+    width: 40%;
+    margin-left: 15px;
+}
+.title__container{
+    margin-top: 15px;
+    width: auto;
+}
+.title__container h2{
+    font-size: 24px;
+}
+.title__container h3{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.title__network{
+    gap: 20px;
+    font-size: 16px;
+
+}
+.skills__box{
+    width: 160px;
+    margin-left: 10px;
+}
+.hobbies__box{
+    width: 160px;
+    margin-left: 10px;
+}
+.academic__courses{
+    display: block;
+    
+}
+.academic h2    {
+    font-size: 22px;
+
+}
+.hobbies h3{
+    font-size: 22px;
+}
+.skills h3{
+    font-size: 22px ;
+}
+.about__container h3{
+    font-size: 22px;
+}
+.experience__section__title{
+    font-size: 22px;
+}
+.experiencie__box img{
+    width: inherit;
+}
+
+.experiencie__box{
+    width: 380px;
+}
+.experience__info h2{
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.experiencia__botao--repo{
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+}
+.experience__botao--demo{
+    height: 40px;
+    width: 120px;
+    font-size: 14px;
+
+}
+.formcontato__contacto{
+    padding: 20 px;
+}
+.formcontato__text{
+    margin: 0 auto;
+}
+.formcontato__form input{
+    height: 42px;
+}
+
+
+}
+
 
 /*Menu*/
 
